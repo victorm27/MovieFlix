@@ -1,0 +1,38 @@
+.moviecard{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+    transition: 0.5s;
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+}
+.moviecard:hover{
+    opacity: 0.5;
+    transform: translateY(-30px);
+    transition: 0.5s;
+}
+
+.title{
+    color: white;
+    text-decoration: none;
+    
+}
+.movieImage{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+@media (max-width: 560px){
+    .movieCard{
+        width: 90%;
+        height: auto;
+}
+}
